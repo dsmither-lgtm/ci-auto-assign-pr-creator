@@ -13,7 +13,7 @@ permissions:
 jobs:
   assign-creator:
     if: >-
-      github.repository == 'newton-physics/newton' &&
+      github.repository == 'dsmither-lgtm/ci-auto-assign-pr-creator' &&
       github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     timeout-minutes: 3
